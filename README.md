@@ -29,13 +29,13 @@ Modules
 
 Streembit is the composite of the following fully open source modules, libraries and projects:
 
-Streembitlib:__
+Streembitlib:  
 Streembit Kademlia, JWT, JWE and crypto Node.js libraries. https://github.com/streembit/streembitlib
 
 
-streembitseed:__
+streembitseed:  
 Streembit seed application to run a seed node on the Streemio network. https://github.com/streembit/streembitseed
 
 
-streembitui:__
+streembitui:  
 Streembit user interface. Windows, Linux and MAC OS desktop application. https://github.com/streembit/streembitui
