@@ -3,20 +3,20 @@ P2P, decentralized, real time, secure communication system for humans and machin
 
 http://streembit.github.io/
 
-The purpose of Streembit is to create a free, secure, decentralised, peer to peer, open source system that secures your real time communication. You can have as many accounts on the permissionless Streembit network as you want. No registration, no email address, no personal details are required. Streembit will not spam users with ads. Instead of using centralised corporate clouds, Streembit runs on a community driven, decentralised, P2P overlay network. 
-
-
 What is Streembit?
 -----------------
 
 Streembit is an experimental decentralised communication system for humans and 
-Internet of Things devices. Streembit uses peer-to-peer technology to operate
-with no central authority: discovering contacts, persisting the data and routing 
-messages are carried out collectively by the network. Streembit Core is the name 
-of open source software which enables the use of this P2P network.
+Internet of Things devices. The purpose of Streembit is to create a free, secure, 
+decentralised, peer to peer, open source system that secures your real time communication. 
+You can have as many accounts on the permissionless Streembit network as you want. 
+No registration, no email address, no personal details are required. 
+Streembit will not spam users with ads. Instead of using centralised corporate clouds, 
+Streembit runs on a community driven, decentralised, P2P overlay network. 
+Streembit uses peer-to-peer technology to operate with no central authority: 
+discovering contacts, persisting the data and routing  messages are carried out collectively by the network. 
 
-For more information, as well as an immediately useable, binary version of
-the Streembit Core software, see http://streembit.github.io/download.
+For more information and an immediately useable, binary version of the Streembit software, see http://streembit.github.io/download.
 
 License
 -------
@@ -30,16 +30,13 @@ Modules
 
 Streembit is the composite of the following fully open source modules, libraries and projects:
 
-##### Streembitlib
-Streembit Kademlia, JWT, JWE and crypto Node.js libraries
-https://github.com/streembit/streembitlib
+##### Streembitlib: 
+Streembit Kademlia, JWT, JWE and crypto Node.js libraries. https://github.com/streembit/streembitlib
 
 
 ##### streembitseed
-Streembit seed application to run a seed node on the Streemio network 
-https://github.com/streembit/streembitseed
+Streembit seed application to run a seed node on the Streemio network. https://github.com/streembit/streembitseed
 
 
 ##### streembitui
-Streembit user interface. Windows, Linux and MAC OS desktop application.
-https://github.com/streembit/streembitui
+Streembit user interface. Windows, Linux and MAC OS desktop application. https://github.com/streembit/streembitui
