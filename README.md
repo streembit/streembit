@@ -21,8 +21,7 @@ For more information and an immediately useable, binary version of the Streembit
 License
 -------
 
-Streembit is a completely free and open source software. Streembit is released under the terms of the GNU General Public License. See [COPYING](COPYING) for more
-information or see http://www.gnu.org/licenses/.
+Streembit is a completely free and open source software. Streembit is released under the terms of the GNU General Public License. See [COPYING](https://github.com/streembit/streembit/blob/master/LICENSE) for more information or see http://www.gnu.org/licenses/.
 
 
 Modules
