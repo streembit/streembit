@@ -38,4 +38,4 @@ Streembit seed application to run a seed node on the Streemio network. https://g
 
 
 **streembitui**    
-Streembit user interface. Windows, Linux and MAC OS desktop application. https://github.com/streembit/streembitui
+Streembit user interface. Cross platform, Windows, Linux and MAC OS desktop application. https://github.com/streembit/streembitui
