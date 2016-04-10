@@ -88,18 +88,24 @@ Build and create the Streembit executable
 
 Once you have built Chromium and NW.js, create the Streembit package by running the platform specific build file from the Streembit/build source directory.
 
+```bash
+$ cd build
+```
+
 Windows 64-bit build:  
-Build node-webkit from source or download the latest Windows 64-bit node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/win64 directory.  
+Build node-webkit from source or download the latest Windows 64-bit node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/win64 directory.   
+Make sure 7zip is installed. Set the 7zip environment variable in the build_win64.bat build file.
 Execute the build/build_win64.bat file from the windows command line.
 
 Linux 64-bit build:  
-Build node-webkit from source or download the latest Linux 64-bit node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/linux64 directory.    
+Build node-webkit from source or download the latest Linux 64-bit node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/linux64 directory.  
+Make sure 7zip is installed. Set the 7zip environment variable in the build_linux64.sh build file.
 Execute the build/build_linux64.sh file from the Linux terminal.
 
 MacOS build:  
 Build node-webkit from source or download the latest MAC OS X node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/macosx directory.   
+Make sure 7zip is installed. Set the 7zip environment variable in the build_macos64.sh build file.
 Execute the build/build_macos64.sh file from the terminal.
-
 
 
 Build the streembitseed application
