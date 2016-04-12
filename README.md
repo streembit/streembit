@@ -41,6 +41,10 @@ Streembit seed application is seed node on the Streembit network. https://github
 Streembit user interface. Cross platform, Windows, Linux and MAC OS X desktop application. https://github.com/streembit/streembitui
 
 
+**streembit-pi**
+Raspberry Pi IoT implementation of Streembit using Node.js. https://github.com/streembit/streembit-pi  
+
+
 Build Streembit
 --------------
 
