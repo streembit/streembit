@@ -138,7 +138,6 @@ To contribute a patch, the workflow is as follows:
   - Create topic branch
   - Commit patches
 
-The project coding conventions in [doc/developer-notes.md](doc/developer-notes.md) must be adhered to.
 
 In general [commits should be atomic](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) and diffs should be easy to read. For this reason do not mix any formatting fixes or code moves with actual code changes.
 
