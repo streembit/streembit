@@ -115,7 +115,7 @@ Execute the build/build_macos64.sh file from the terminal.
 Build the streembitseed application
 -----------------------------------
 
-To help and contribute to the stability of Streembit network please run the streemo-seed application. More seeds make the network more stable and having more seeds deployed we can mitigate DDoS attacks and government interventions more effectively.  Also, if you wish to run your own Streembit network you must run your own streembitseed nodes. streembitseed is a Node.js application based on the streembitlib library, but without the Chromium/NW.js UI components. To build streembit-seed from source clone the [streembitseed source](https://github.com/streembit/streembitseed.git) and follow the instructions of to the readme.
+To help and contribute to the stability of Streembit network please run the streembitseed application. More seeds make the network more stable and having more seeds deployed we can mitigate DDoS attacks more effectively.  Also, if you wish to start your own Streembit network, then you must run your own streembitseed nodes. streembitseed is a Node.js application that uses the streembitlib library, but without the Chromium/NW.js UI components. To build streembit-seed from source clone the [streembitseed source](https://github.com/streembit/streembitseed.git) and follow the instructions of to the readme.
 
 
 
