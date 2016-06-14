@@ -25,7 +25,6 @@ Streembit is a completely free and open source software. Streembit is released u
 
 
 # Streembit Repositories
--------
 
 Streembit is the composite of the following fully open source modules, libraries and projects:
 
