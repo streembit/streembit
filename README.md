@@ -24,7 +24,7 @@ License
 Streembit is a completely free and open source software. Streembit is released under the terms of the GNU General Public License. See [COPYING](https://github.com/streembit/streembit/blob/master/LICENSE) for more information or see http://www.gnu.org/licenses/.
 
 
-Modules
+# Streembit Repositories
 -------
 
 Streembit is the composite of the following fully open source modules, libraries and projects:
