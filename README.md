@@ -6,17 +6,17 @@ http://streembit.github.io/
 What is Streembit?
 -----------------
 
-Streembit is an experimental decentralised communication system for humans and 
-Internet of Things devices. The purpose of Streembit is to create a free, secure, 
-decentralised, peer to peer, open source system that secures your real time communication. 
-You can have as many accounts on the permissionless Streembit network as you want. 
-No registration, no email address, no personal details are required. 
-Streembit will not spam users with ads. Instead of using centralised corporate clouds, 
-Streembit runs on a community driven, decentralised, P2P overlay network. 
-Streembit uses peer-to-peer technology to operate with no central authority: 
-discovering contacts, persisting the data and routing  messages are carried out collectively by the network. 
+Streembit is an open source, peer-to-peer communication network for humans and machines. We aim to solve secure, decentralized network formation with Streembit. Streembit uses peer-to-peer technology to operate with no central authority: discovering contacts, persisting the data and routing messages are carried out collectively by the network. It is primarily secured by elliptic curve public/private key cryptography infrastructure (PPKI).
 
-For more information and an immediately useable, binary version of the Streembit software, see http://streembit.github.io/download.
+Streembit comes with video calls, audio calls, text chat, file transfer, screen sharing, and the ability to connect to your Internet-of-Things devices.
+
+Streembit is optimized for the Internet-of-Things. Along with complying with open security and communication standards our developers take an active role in the W3C Web of Things Initiative (https://github.com/w3c/web-of-things-framework) and mirror all WoT standards in the Streembit codebase.
+
+Please join our Gitter (https://gitter.im/orgs/streembit/rooms) if you would like to chat!
+
+For more information, as well as an immediately useable, packaged version of the Streembit software, see http://streembit.github.io/download.
+
+For help using Streembit please visit the documentation: http://streembit.github.io/documentation/
 
 License
 -------
@@ -34,92 +34,18 @@ https://github.com/streembit/streembitlib
 
 
 **streembitseed**    
-Streembit seed application is seed node on the Streembit network.   
+Streembit seed application is for running seed node on the Streembit network or if you prefer to use Streembit from a terminal.   
 https://github.com/streembit/streembitseed
 
 
 **streembitui**    
-Streembit user interface. Cross platform, Windows, Linux and MAC OS X desktop application.   
+The Streembit user interface. Cross platform, Windows, Linux and MAC OS X desktop application with video chat, audio calls, text chat, file transfering, screen sharing, and the ability to connect to Internet of Things devices.   
 https://github.com/streembit/streembitui
 
 
 **streembit-pi**    
-Raspberry Pi IoT implementation of Streembit using Node.js.   
+Raspberry Pi IoT implementation of Streembit using Node.js. Use this to connect your Pi to the Streembit network as a device.   
 https://github.com/streembit/streembit-pi  
-
-
-Build Streembit
---------------
-
-The Streembit Core software is a Node.js application which uses the NW.js(node-webkit) library. NW.js is an app runtime based on Chromium. In order to build Streembit from source you must be familiar with Node.js, the Chromium project and NW.js (node-webkit).
-
-To build Streembit from source first you must build Chromium software and the NW.js (node-webkit) library. 
-
-To build Chromium please refer to the Chromium project web site.
-
-[Build summary](https://www.chromium.org/nativeclient/how-tos/build-tcb)
- 
-[Get the Chromium code](http://www.chromium.org/developers/how-tos/get-the-code)
- 
-[Windows build instructions](https://chromium.googlesource.com/chromium/src/+/master/docs/windows_build_instructions.md)
-
-To build NW.js please refer to the NW.js [build documentation](http://docs.nwjs.io/en/latest/For%20Developers/Building%20NW.js/).
-
-
-Run Streembit from source 
-------------------------
-
-Once Chromium and NW.js are built clone the streembit repository:  
-
-```bash
-$ git clone https://github.com/streembit/streembit
-$ cd /streembit
-```
-
-Install the Streembit Node.js dependencies:  
-
-```bash
-$ npm install
-```
-
-Run Streembit:  
-```bash
-$ /path/to/nw . 
-```
-(The node-webkit executables must be in the /nw directory if you run the above command. The package.json file must exists in the Streembit directory).
-
-
-
-Build and create the Streembit executable
------------------------------------------
-
-Once you have built Chromium and NW.js, create the Streembit package by running the platform specific build file from the Streembit/build source directory.
-
-```bash
-$ cd build
-```
-
-Windows 64-bit build:  
-Build node-webkit from source or download the latest Windows 64-bit node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/win64 directory.   
-Make sure 7zip is installed. Set the 7zip environment variable in the build_win64.bat build file.
-Execute the build/build_win64.bat file from the windows command line.
-
-Linux 64-bit build:  
-Build node-webkit from source or download the latest Linux 64-bit node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/linux64 directory.  
-Make sure 7zip is installed. Set the 7zip environment variable in the build_linux64.sh build file.
-Execute the build/build_linux64.sh shell script file from the Linux terminal.
-
-MacOS build:  
-Build node-webkit from source or download the latest MAC OS X node-webkit binaries from the node-webkit project site, and copy it to the /build/buildtools/macosx directory.   
-Make sure 7zip is installed. Set the 7zip environment variable in the build_macos64.sh build file.
-Execute the build/build_macos64.sh file from the terminal.
-
-
-Build the streembitseed application
------------------------------------
-
-To help and contribute to the stability of Streembit network please run the streembitseed application. More seeds make the network more stable and having more seeds deployed we can mitigate DDoS attacks more effectively.  Also, if you wish to start your own Streembit network, then you must run your own streembitseed nodes. streembitseed is a Node.js application that uses the streembitlib library, but without the Chromium/NW.js UI components. To build streembit-seed from source clone the [streembitseed source](https://github.com/streembit/streembitseed.git) and follow the instructions of to the readme.
-
 
 
 Contributing to Streembit
