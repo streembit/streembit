@@ -28,24 +28,11 @@ Streembit is a completely free and open source software. Streembit is released u
 
 Streembit is the composite of the following fully open source modules, libraries and projects:
 
-**streembitlib**   
-Streembit Kademlia, JWT, JWE and crypto Node.js libraries.  
-https://github.com/streembit/streembitlib
+**streembit-cli**   
+Streembit CLI Kademlia, JWT, JWE and crypto Node.js libraries.  
+https://github.com/streembit/streembit-cli/tree/develop
 
-
-**streembitseed**    
-Streembit seed application is for running seed node on the Streembit network or if you prefer to use Streembit from a terminal.   
-https://github.com/streembit/streembitseed
-
-
-**streembitui**    
-The Streembit user interface. Cross platform, Windows, Linux and MAC OS X desktop application with video chat, audio calls, text chat, file transfering, screen sharing, and the ability to connect to Internet of Things devices.   
-https://github.com/streembit/streembitui
-
-
-**streembit-pi**    
-Raspberry Pi IoT implementation of Streembit using Node.js. Use this to connect your Pi to the Streembit network as a device.   
-https://github.com/streembit/streembit-pi  
+(Use the develop branch and readme for now).
 
 
 Contributing to Streembit
