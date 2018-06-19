@@ -34,8 +34,10 @@ https://github.com/streembit/streembit-cli/tree/develop
 
 (Use the develop branch and readme for now).
 
+
 **streembitui**
-The Streembit user interface. Cross platform, Windows, Linux and MAC OS X desktop application with video chat, audio calls, text chat, file transfering, screen sharing, and the ability to connect to Internet of Things devices.   	
+
+Streembit user interface. Web based and Cross platform, Windows, Linux and MAC OS X desktop application with video chat, audio calls, text chat, file transfering, screen sharing, and the ability to connect to Internet of Things devices.   	
 https://github.com/streembit/streembitui
 
 
